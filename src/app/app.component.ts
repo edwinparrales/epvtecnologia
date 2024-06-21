@@ -16,8 +16,10 @@ export class AppComponent{
 
   title = 'epvsite';
   constructor(private titulo:Title,private meta:Meta) {
-    meta.updateTag({name:"description",content:"Pagina personal Epvtecnologia sobre tecnologia desarrollo de software electronica"})
-    meta.updateTag({name:"keywords",content:"Tecnologia, desarrollo de software, electronica,computadores"})
+    meta.updateTag({name:"description",content:"Pagina personal Epvtecnologia sobre tecnologia desarrollo de software electronica"});
+    meta.updateTag({name:"keywords",content:"Tecnologia, desarrollo de software, electronica,computadores"});
+    meta.updateTag({name:"robots",content:"index"});
+    meta.updateTag({name:"follow",content:"follow"});
     this.title = 'epvsite';
   }
 
