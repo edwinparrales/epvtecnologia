@@ -4,11 +4,12 @@ import {SeoService} from "./services/seo.service";
 import {NavbarComponent} from "./components/navbar/navbar.component";
 import {FooterComponent} from "./components/footer/footer.component";
 import {Meta, Title} from "@angular/platform-browser";
+import {BtnWhatsappComponent} from "./components/btn-whatsapp/btn-whatsapp.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavbarComponent, FooterComponent],
+  imports: [RouterOutlet, NavbarComponent, FooterComponent, BtnWhatsappComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
