@@ -17,7 +17,7 @@ export class AppComponent{
 
   title = 'epvsite';
   constructor(private titulo:Title,private meta:Meta) {
-    meta.updateTag({name:"description",content:"Reparacion de computadores Epvtecnologia sobre tecnologia desarrollo de software electronica"});
+    meta.updateTag({name:"description",content:"Reparacion de computadores Cali Epvtecnologia sobre tecnologia desarrollo de software electronica"});
     meta.updateTag({name:"keywords",content:"Reparacion pc, desarrollo de software, electronica,computadores"});
     meta.updateTag({name:"robots",content:"Index"});
     meta.updateTag({name:"follow",content:"Follow"});
